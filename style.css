@@ -1,0 +1,199 @@
+/* Making everything flex and cahnging direction*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*Making header flex and align properly*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 670px;
+    margin-bottom: 10x;
+}
+
+/*Aligning list horizontaly, removing bullets*/
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.content-picture {
+    display: flex;
+    justify-content: center;
+    column-gap: 115px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+/* Making h1 big and bold and white*/
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+/* Making small text slightly bigger and not so white*/
+
+small,
+ul,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Making header logo stand out */
+
+h5 {
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+/* Making background color blue fot first section*/
+.first {
+    background-color: #1f2937;
+}
+
+/* styling button*/
+button {
+    width: 200px;
+    line-height: 2;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 1px;
+    border-color: white;
+    border-radius: 4px;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Second part flexing */
+
+.second {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.content-picture-2 {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* making images small, curved border, with some coloe*/
+.second img{
+    width: 200px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #1f2937;
+}
+
+/* Making text 200px wide*/
+.info {
+    max-width: 200px;
+}
+
+.second h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+/* Adding third part*/
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.third .author{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 230px;
+}
+
+.third .quote {
+    font-size: 36px;
+    font-style: light italic #1f2937;
+    margin: 0 200px 0 200px;
+}
+
+/* mokled ak unda shevkmna meotxeshi,
+ kide erti garedan ro cahvsva mivce 
+ peri da mer ukvshvils mivcem lurjs da gavacentreb*/
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.white {
+    display: flex;
+    width: 550px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 130px
+}
+/* 
+.lower button {
+    border: solid;
+    border-color: white;
+    border-radius: 4px;
+    width: 20%;
+    margin-left: 100px;
+} */
+
+.upper {
+    font-weight: 600;
+}
+
+.fifth {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 16px;
+    color: #E5E7EB;
+    padding: 20px 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower p{
+    margin: 5px 0 5px 0;
+}
+.lower p span{
+    font-weight: bold;
+}
